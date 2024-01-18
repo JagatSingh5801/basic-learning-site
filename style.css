@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: #42455a;
+    padding: 15px 0;
+    float: left;
+}
+.Menu {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.Menu ul li {
+    list-style: none;
+    padding: 0 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+}
+
+li.logo{
+    padding-left: 0 !important;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    margin-right: 48px;
+}
+
+.active{
+    color: #19dafa !important;
+}
+.signup {
+    padding: 10px;
+    text-decoration:solid;
+    border-radius: 20px;
+    background-image: radial-gradient(circle at top left,#df4a1d,#50abe4,#20f0a7);
+    display: flex;
+    justify-self: flex-end;
+}
+.signup span {
+    padding: 8px 22px;
+}
+
+.banner{
+    width: 80%;
+    height: 70%;
+    top:25%;
+    left: 130px;
+    position: absolute;
+    color: #fff;
+    display: flex;
+}
+
+.app-text {
+    width: 70%;
+    float: left;
+}
+
+.app-text h1{
+    font-size: 43px;
+}
+
+.app-text p{
+    font-size: 15px;
+    color: #919191;
+    padding: 10px;
+}
+
+.app-picture{
+    width: 60%;
+}
+
+.app-picture img{
+    width: 90%;
+}
+
+.play-btn{
+    margin-left: 40px;
+    display: inline-flex;
+    padding: 10px;
+}
+
+.play-btn-inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,content-box;
+    text-align: center;
+}
+
+.play-btn-inner .fa{
+    padding: 18px 0;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+small{
+   margin:auto 20px;
+   cursor: pointer; 
+   font-size: 16px;
+   color: #19dafa;
+   letter-spacing: 3px;
+}
+
+.quick-links{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right,#db1bf6,#19d7f8);
+}
+
+.quick-links ul{
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+}
+.quick-links ul li{
+    list-style:none;
+    margin:0 50px;
+    cursor: pointer;
+}
+.quick-links ul li .fa{
+font-size: 25px;
+color: #fff;
+}
+
+.quick-links ul li p{
+    margin-top: 15px;
+    font-size: 10px;
+    color: #fff;  
+}
+.socal-icons{
+    right: 72px;
+    bottom: 35px;
+    position: absolute;
+}
+.socal-icons ul li{
+    list-style:none;
+    margin-top:15px;
+    text-align: center;
+}
+.socal-icons ul li a{
+    color: #20f0a7;
+    border-radius: 50%;
+    border: 1px solid #999;
+    padding: 5px;
+    display: block;
+ 
+}
